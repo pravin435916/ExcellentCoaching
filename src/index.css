@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Navbar.css */
+
+/* Navbar.css */
+
+.navbar {
+  transition: transform 0.3s ease-in-out;
+}
+
+.translate-y-0 {
+  transform: translateY(0);
+}
+
+.-translate-y-full {
+  transform: translateY(-100%);
+}
+
+.offcanvas {
+  transition: transform 0.3s ease-in-out;
+}
+
+.offcanvas.offcanvas-end {
+  transform: translateX(100%);
+}
+
+.offcanvas.show {
+  transform: translateX(0);
+}
+
+.offcanvas-header .btn-close {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.offcanvas-header .btn-close:hover {
+  background-color: black;
+  color: white;
+}
