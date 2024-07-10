@@ -20,8 +20,11 @@ const Footer = () => {
         <div className="w-full md:w-1/3">
           <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
           <p className="text-sm">123 Education Avenue, Cityville</p>
-          <p className="text-sm">Email: info@tutonclasses.com</p>
-          <p className="text-sm">Phone: +1 (123) 456-7890</p>
+          <p className="text-sm">Email: excellent@gmail.com</p>
+          <p className="text-sm">Contact number :-</p>
+          <p className="text-sm">9022468929</p>
+          <p className="text-sm">8097231058</p>
+          <p className="text-sm">8928825072</p>
         </div>
         <div className="w-full mt-4">
           <p className="text-sm text-center">&copy; {new Date().getFullYear()} Tuton Classes. All rights reserved.</p>
