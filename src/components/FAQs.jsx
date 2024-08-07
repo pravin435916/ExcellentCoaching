@@ -3,22 +3,39 @@ import React, { useState } from 'react';
 const FAQs = () => {
     const faqs = [
         {
-            question: 'What are the passing criteria for CBSE 10th class?',
-            answer: 'To pass CBSE 10th class, students need to score at least 33% in each subject and an overall aggregate of 40%.',
+            question: 'what is the passing criteria to enroll ?',
+            answer: '50 to 70 above percentage students can enroll this courses',
         },
         {
-            question: 'How are CBSE 12th board exams graded?',
-            answer: 'CBSE 12th board exams are graded based on a nine-point grading system, ranging from A1 (highest) to E2 (lowest).',
+            question: 'What is the teaching methodology at Tuton Classes?',
+            answer: 'At Tuton Classes, we use a student-centric approach, focusing on conceptual understanding, regular assessments, and personalized feedback to ensure each student achieves their academic potential.',
         },
         {
-            question: 'Can I change my CBSE 10th or 12th exam center?',
-            answer: 'Yes, CBSE allows students to request a change in their exam center under certain circumstances, such as relocation.',
+            question: 'Are the courses available online or offline?',
+            answer: 'We offer offline courses to cater to the diverse needs of our students.',
         },
         {
-            question: 'What are the passing criteria for CBSE 12th class?',
-            answer: 'To pass CBSE 12th class, students need to score at least 33% in each subject and an overall aggregate of 33%.'
+            question: 'How do you ensure the quality of education?',
+            answer: 'Our faculty consists of experienced educators who are experts in their respective fields. We provide comprehensive study materials, regular tests, and performance reviews to ensure high-quality education.',
+        },
+        {
+            question: 'Can I get a demo class before enrolling?',
+            answer: 'Yes, we offer demo classes for prospective students. You can register for a demo class through our website or contact our support team for more details.',
+        },
+        {
+            question: 'What are the fees for the courses?',
+            answer: 'The course fees vary based on the grade and board. Please visit our classes to know more about it.',
+        },
+        {
+            question: 'How can I enroll in a course?',
+            answer: 'Enrollment can be done offline through  by visiting our center.',
+        },
+        {
+            question: 'How do you handle doubts and queries?',
+            answer: 'We have dedicated doubt-clearing sessions and an online platform where students can post their queries. Our faculty promptly addresses all doubts to ensure clarity.',
         }
-    ];    
+    ];
+    
 
     const FAQItem = ({ question, answer }) => {
         const [showAnswer, setShowAnswer] = useState(false);
@@ -75,7 +92,7 @@ const FAQs = () => {
 
     return (
         <div className="w-full p-10 sm:w-[60vw] mx-auto">
-            <h2 className="text-5xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
+            <h2 className="sm:text-5xl text-3xl mt-4 font-bold mb-8 text-center">Frequently Asked Questions</h2>
             {faqs.map((faq, index) => (
                 <FAQItem key={index} question={faq.question} answer={faq.answer} />
             ))}

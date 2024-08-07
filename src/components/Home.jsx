@@ -16,11 +16,10 @@ const Home = () => {
       {/* <BlogNavbar/> */}
       <Header/>
       <About/>
-      <Reviews/>
       <Courses/>
       <FAQs/>
+      <Reviews/>
       {/* <TopperList/> */}
-      <Footer/>
     </>
   );
 };

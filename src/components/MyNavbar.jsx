@@ -38,19 +38,19 @@ const MyNavbar = () => {
           <div className="offcanvas-body transition-all">
             <ul className="navbar-nav justify-content-end flex-grow-1 gap-3 pe-3 text-xl font-bold">
               <li className="nav-item ">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                <a className="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Courses</a>
+                <a className="nav-link active" aria-current="page" href="/courses">Courses</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">About Us</a>
+                <a className="nav-link active" aria-current="page" href="/about">About Us</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Get in Touch</a>
+                <a className="nav-link active" aria-current="page" href="/">Get in Touch</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Reviews</a>
+                <a className="nav-link active" aria-current="page" href="/">Reviews</a>
               </li>
               <Col md={3}>
                 <ul className="flex gap-4 list-inline footer-links">
